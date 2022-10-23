@@ -53,8 +53,9 @@
     width: 100vw;
 }
 
-@media screen and (min-with:1024px) {
-    .institucional__contacto {
+@media screen and (min-width:1024px) {
+    
+    .institucional__contenido {
         width: 100%;
         display: flex;
         justify-content: space-between;

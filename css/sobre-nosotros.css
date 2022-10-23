@@ -30,12 +30,16 @@
     font-weight: 700;
 }
 
+.sobre-nosotros__imagen {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
-    .sobre-nosotros {
+    .sobre_nosotros {
         display: flex;
     }
 
-    .sobre-nosotros__contenido {
+    .sobre_nosotros__contenido {
         margin-right: 3rem;
     }
 
@@ -43,7 +47,11 @@
         text-align: left;
     }
 
-    .sobre-nosotros_texto-division {
+    .sobre_nosotros_texto-division {
         border-bottom: 1px solid var(--background-ceniza-medio);
+    }
+
+    .sobre_nosotros__imagen {
+        display: block;
     }
 }
