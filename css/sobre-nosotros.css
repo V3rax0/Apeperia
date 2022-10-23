@@ -29,3 +29,21 @@
     color: var(--fuente-ceniza-oscuro);
     font-weight: 700;
 }
+
+@media screen and (min-width: 1024px) {
+    .sobre-nosotros {
+        display: flex;
+    }
+
+    .sobre-nosotros__contenido {
+        margin-right: 3rem;
+    }
+
+    .sobre_nosotros__titulo {
+        text-align: left;
+    }
+
+    .sobre-nosotros_texto-division {
+        border-bottom: 1px solid var(--background-ceniza-medio);
+    }
+}
